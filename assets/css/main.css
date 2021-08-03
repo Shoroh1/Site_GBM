@@ -2813,8 +2813,9 @@ button:disabled,
   background-color: #7ecaf6;
 }
 .tiles .style2 .image {
-  width: 100%;
-  height: 100%;
+	width: 100%;
+	height: 100%;
+	border: none;
 }
 
 .tiles article.style3 > .image:before {
@@ -2830,16 +2831,18 @@ button:disabled,
   background-color: #c75b9b;
 }
 .tiles .style4 .image {
-  width: 100%;
-  height: 100%;
+	width: 100%;
+	height: 100%;
+	border: none;
 }
 
 .tiles article.style5 > .image:before {
   background-color: #ae85ca;
 }
 .tiles .style5 .image {
-  width: 100%;
-  height: 100%;
+	width: 100%;
+	height: 100%;
+	border: none;
 }
 
 .tiles article.style6 > .image:before {
