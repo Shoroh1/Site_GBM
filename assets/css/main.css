@@ -411,6 +411,12 @@ hr.major {
   text-align: right;
 }
 
+.email {
+  margin-left: 100px;
+}
+.pdf {
+  list-style-type: none;
+}
 /* Row */
 
 .row {
@@ -419,7 +425,6 @@ hr.major {
   box-sizing: border-box;
   align-items: stretch;
 }
-
 .row > * {
   box-sizing: border-box;
 }
@@ -1624,6 +1629,29 @@ hr.major {
   .row.gtr-200.gtr-uniform > * {
     padding-top: 2em;
   }
+  .contacts {
+    margin-right: 20px;
+    text-align: center;
+  }
+  .email {
+    margin-top: 20px;
+    text-align: center;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0px;
+  }
+  .imagediv {
+    justify-content: center;
+    display: flex;
+    position: relative;
+    align-items: center;
+    object-fit: inherit;
+  }
+  .gimage {
+    object-fit: scale-down;
+    padding: 60px;
+  }
 }
 
 @media screen and (max-width: 480px) {
@@ -2449,7 +2477,7 @@ input[type="radio"] + label:before {
 }
 
 .image.main img {
-  width: 100%;
+  width: 70%;
 }
 
 @media screen and (max-width: 736px) {
@@ -2813,9 +2841,9 @@ button:disabled,
   background-color: #7ecaf6;
 }
 .tiles .style2 .image {
-	width: 100%;
-	height: 100%;
-	border: none;
+  width: 100%;
+  height: 100%;
+  border: none;
 }
 
 .tiles article.style3 > .image:before {
@@ -2831,18 +2859,18 @@ button:disabled,
   background-color: #c75b9b;
 }
 .tiles .style4 .image {
-	width: 100%;
-	height: 100%;
-	border: none;
+  width: 100%;
+  height: 100%;
+  border: none;
 }
 
 .tiles article.style5 > .image:before {
   background-color: #ae85ca;
 }
 .tiles .style5 .image {
-	width: 100%;
-	height: 100%;
-	border: none;
+  width: 100%;
+  height: 100%;
+  border: none;
 }
 
 .tiles article.style6 > .image:before {
@@ -2854,7 +2882,14 @@ button:disabled,
   height: 100%;
   border: none;
 }
-
+.list1 {
+  list-style: none;
+}
+.gimage {
+  height: 550px;
+  margin: 10px auto 20px;
+  display: block;
+}
 body:not(.is-touch) .tiles article:hover > .image {
   -moz-transform: scale(1.1);
   -webkit-transform: scale(1.1);
@@ -2977,6 +3012,7 @@ body.is-touch .tiles article .content {
 }
 
 #header .logo > * {
+  width: 280px;
   display: inline-block;
   vertical-align: middle;
 }
@@ -3295,7 +3331,7 @@ body.is-menu-visible #menu .close {
 /* Footer */
 
 #footer {
-  padding: 5em 0 6em 0;
+  padding: 1em 0 1em 0;
   background-color: #f6f6f6;
 }
 
@@ -3385,7 +3421,7 @@ body.is-menu-visible #menu .close {
 
 @media screen and (max-width: 736px) {
   #footer {
-    padding: 3em 0 1em 0;
+    padding: 1em 0 1em 0;
   }
 
   #footer > .inner {
